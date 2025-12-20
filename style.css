@@ -1,0 +1,94 @@
+/* Reset body margin */
+body {
+  margin: 0;
+  background-color: #d4e8ff;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+
+/* HEADER FULL WIDTH */
+header {
+  width: 100%;
+  background-color: #dab39c;
+
+  display: flex;
+  justify-content: space-between; /* logo left, menu right */
+  align-items: center;            /* vertical centering */
+
+  padding: 1.5rem 2rem;           /* internal spacing */
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+/* LOGO */
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+/* MENU LINKS */
+.menu {
+  display: flex;
+  gap: 3rem; /* space between tabs */
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+#updates_container {
+    /* width: 300px;
+    height: 150px;
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 10px;
+    overflow-x: scroll; Horizontal scroll 
+    overflow-y: scroll; Vertical scroll 
+  */
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;      /* center container */
+  padding: 0.5rem;
+  background-color: #d4e8ff;
+  display: flex;
+  flex-direction: column;  /* stack updates vertically */
+  border-radius: 10px;
+  box-sizing: border-box;
+  
+}
+
+#updates_container h1 {
+  font-weight: normal;
+}
+
+.list_updates {          
+   /* space between date and text */
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.dates h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.updates p {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  line-height: 1;
+  color: #333;
+  align-items: center;
+  text-indent: 2rem; /* or 20px, whatever size you want */
+}
