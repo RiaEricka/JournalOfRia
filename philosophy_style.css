@@ -1,0 +1,102 @@
+/* Reset body margin */
+body {
+  margin: 0;
+  background-color: #d4e8ff;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* HEADER FULL WIDTH */
+header {
+  width: 100%;
+  background-color: #dab39c;
+
+  display: flex;
+  justify-content: space-between; /* logo left, menu right */
+  align-items: center;            /* vertical centering */
+
+  padding: 1.5rem 2rem;           /* internal spacing */
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+/* LOGO */
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+/* MENU LINKS */
+.menu {
+  display: flex;
+  gap: 3rem; /* space between tabs */
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* PAPERS LIST */
+.papers {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+/* EACH PAPER ITEM - image and link in a row */
+.paper-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+.paper-item img {
+  height: 107.5px;
+  width: 107.5px;
+  border-radius: 15px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.paper-item a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+}
+
+.paper-item a:hover {
+  text-decoration: underline;
+}
+
+/* HORIZONTAL RULE */
+hr {
+  border: none;
+  border-top: 2px solid #333;
+  margin: 0;
+}
+
