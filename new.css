@@ -1,6 +1,6 @@
 body {
     background-image: url("https://i.pinimg.com/736x/6e/a4/ca/6ea4cae3c0c5590fe40d47fedfbd5c2b.jpg");
-    background-size: auto auto; /* stretch item to its approriate length*/
+    background-size: 20px; /* stretch item to its approriate length*/
 }
 
 /* /*credits to https://scripted.neocities.org/scrollbox for giving me the scrollbar! */
@@ -133,6 +133,7 @@ section {
     border-radius: 5px;
     
 }
+
 
 section img {
     width: 100%;
